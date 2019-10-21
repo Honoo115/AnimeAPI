@@ -66,9 +66,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1800px) {
   #wrapper {
     display: flex;
+    padding: 100px;
   }
   .thumbnails {
     flex: 2;
@@ -79,18 +80,52 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-left: solid black;
   }
   .vid_res {
     max-width: 1000px;
     max-height: 360px;
   }
-  .results {
-    width: 80%;
-    height: 150px;
-  }
   .ani_scale {
     width: 80%;
     height: 80%;
-    object-fit: cover;
+    object-fit: contain;
+  }
+  .results {
+    width: 150px;
+    margin-left: 100px;
+  }
+  #ani_results {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 80vh;
+    width: 100%;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  #ani_vids {
+    width: 100%;
+  }
+}
+#userInput {
+  background-color: #e5e4eb;
+  font-size: 20px;
+}
+.sub_but {
+  background-color: #4c819c;
+  border: solid whitesmoke 1px;
+  font-size: 20px;
+}
+@media only screen and (max-height: 1200px) {
+  #ani_results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .results {
+    text-align: center;
+  }
+  #ani_vids {
+    max-width: 800px;
   }
 }
