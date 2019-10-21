@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width" />
     <title>漫画</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>SEARCH OF ANIME</h1>
-
+    <header class="header">
+      <h1>SEARCH OF ANIME</h1>
+      <div class="history"></div>
+    </header>
     <section class="form_wrap">
       <form id="ani_form">
         <div>
@@ -22,11 +28,13 @@
         </div>
       </form>
     </section>
-    <section class="thumbnails">
-      <div id="ani_results"></div>
-    </section>
-    <section id="videos">
-      <div id="ani_vids"></div>
+    <section id="wrapper">
+      <section class="thumbnails">
+        <div id="ani_results"></div>
+      </section>
+      <section id="videos">
+        <div id="ani_vids"></div>
+      </section>
     </section>
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
