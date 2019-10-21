@@ -2,7 +2,7 @@
 
 
 
-###### Here is a link to the [Find an Anime](https://honoo115.github.io/AnimeAPI/ "Find an Anime") API.
+###### Here is a link to the [Find an Anime](https://honoo115.github.io/FindAnAnime/ "Find an Anime") API.
 
 
 <a href="https://ibb.co/NCbMyFs"><img src="https://i.ibb.co/xLdN72D/AnimeAPI.png"  alt="Anime-API" border="0"></a>
